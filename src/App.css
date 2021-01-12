@@ -232,6 +232,7 @@
   display: flex;
   align-items: flex-start;
   flex: 1 1 0%;
+  transition: all 300ms;
 }
 
 .basket-list-items:hover .basket-delete-btn {
@@ -241,9 +242,11 @@
 }
 .basket-list-items:hover .basket-items-flex {
   margin-left: -100px;
+  transition: all 300ms;
 }
 .basket-list-items:hover .basket-product-price {
   margin-right: 100px;
+  transition: all 300ms;
 }
 
 .empty-basket {
@@ -313,4 +316,5 @@
 .basket-product-price {
   color: #adbfd1;
   font-size: 16px;
+  transition: all 300ms;
 }
